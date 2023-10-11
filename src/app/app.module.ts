@@ -10,6 +10,7 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
 import {MatSnackBarModule} from '@angular/material/snack-bar';
+import {MatCardModule} from '@angular/material/card';
 
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { SignupComponent } from './pages/signup/signup.component';
@@ -34,7 +35,8 @@ import { HomeComponent } from './pages/home/home/home.component';
     MatInputModule,
     FormsModule,
     HttpClientModule,
-    MatSnackBarModule
+    MatSnackBarModule,
+    MatCardModule
   
   ],
   providers: [],
